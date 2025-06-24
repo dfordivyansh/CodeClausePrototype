@@ -20,7 +20,7 @@ This project was developed for the **Duality AI Space Station Simulation Challen
 - **Tools:** OpenCV, Matplotlib  
 - **Data Source:** Falcon Simulation Platform (YOLO format)  
 
-
+## 🗂️ Repository Structure
 ![image](https://github.com/user-attachments/assets/36abd486-b223-4405-a446-f10f1a8d3ff7)
 
 
