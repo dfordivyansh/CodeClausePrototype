@@ -23,7 +23,7 @@ This project was developed for the **Duality AI Space Station Simulation Challen
 
 ## 🗂️ Repository Structure
 
-<pre> ``` Tech-Titans-Code-Space/ ├── ENV_SETUP/ ├── predictions/ │ ├── images/ │ └── labels/ ├── test/ │ ├── images/ │ ├── labels/ │ └── labels.cache ├── train/ │ ├── images/ │ ├── labels/ │ └── labels.cache ├── val/ │ ├── images/ │ ├── labels/ │ └── labels.cache ├── runs/ │ └── detect/ │ ├── train/ │ └── val/ ├── .gitattributes ├── classes.txt ├── CodeClash2.0_Tech_Titans.pdf ├── predict.py ├── README.md ├── Report.pdf ├── train.py ├── yolo_params.yaml ├── yolo11n.pt └── yolov8s.pt ``` </pre>
+``` Tech-Titans-Code-Space/ ├── ENV_SETUP/ ├── predictions/ │ ├── images/ │ └── labels/ ├── test/ │ ├── images/ │ ├── labels/ │ └── labels.cache ├── train/ │ ├── images/ │ ├── labels/ │ └── labels.cache ├── val/ │ ├── images/ │ ├── labels/ │ └── labels.cache ├── runs/ │ └── detect/ │ ├── train/ │ └── val/ ├── .gitattributes ├── classes.txt ├── CodeClash2.0_Tech_Titans.pdf ├── predict.py ├── README.md ├── Report.pdf ├── train.py ├── yolo_params.yaml ├── yolo11n.pt └── yolov8s.pt ```
 
 
 ## 🚀 Getting Started
