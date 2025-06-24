@@ -3,7 +3,7 @@ import os
 from ultralytics import YOLO
 import torch
 
-# Default training parameters
+
 EPOCHS = 40                      # Train for longer
 MOSAIC = 0.5                     # Reduced aggressive augmentation
 MIXUP = 0.1                      # Less mixup improves object clarity
