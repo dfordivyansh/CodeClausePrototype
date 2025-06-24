@@ -22,7 +22,7 @@ This project was developed for the **Duality AI Space Station Simulation Challen
 
 ## 🗂️ Repository Structure
 
-Tech-Titans/
+'''Tech-Titans/
 ├── train.py               # YOLOv8 training script
 ├── predict.py             # Inference and evaluation script
 ├── config.yaml            # Training config file
@@ -35,7 +35,7 @@ Tech-Titans/
 │   └── test/              # Testing set
 ├── Report.pdf             # 8-page final evaluation report
 ├── Use\_Case.pdf           # Bonus document — real-world application
-└── README.md              # Project overview and instructions
+└── README.md              # Project overview and instructions'''
 
 
 
