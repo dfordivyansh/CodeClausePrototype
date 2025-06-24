@@ -1,0 +1,9 @@
+path: C:/Users/dford/Desktop/Tech Titans Code Space/predictions
+train: train/images
+val: val/images
+test: C:/Users/dford/Desktop/Tech Titans Code Space/predictions/test
+
+names: 
+  0: FireExtinguisher 
+  1: ToolBox
+  2: OxygenTank
