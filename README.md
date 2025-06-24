@@ -20,40 +20,22 @@ This project was developed for the **Duality AI Space Station Simulation Challen
 - **Tools:** OpenCV, Matplotlib  
 - **Data Source:** Falcon Simulation Platform (YOLO format)  
 
-
 ## 🗂️ Repository Structure
 
-Tech-Titans-Code-Space/
-├── ENV_SETUP/
-├── predictions/
-│   ├── images/
-│   └── labels/
-├── test/
-│   ├── images/
-│   ├── labels/
-│   └── labels.cache
-├── train/
-│   ├── images/
-│   ├── labels/
-│   └── labels.cache
-├── val/
-│   ├── images/
-│   ├── labels/
-│   └── labels.cache
-├── runs/
-│   └── detect/
-│       ├── train/
-│       └── val/
-├── .gitattributes
-├── classes.txt
-├── CodeClash2.0_Tech_Titans.pdf
-├── predict.py
-├── README.md
-├── Report.pdf
-├── train.py
-├── yolo_params.yaml
-├── yolo11n.pt
-└── yolov8s.pt
+Tech-Titans/
+├── train.py               # YOLOv8 training script
+├── predict.py             # Inference and evaluation script
+├── config.yaml            # Training config file
+├── runs/                  # Training logs, plots, metrics
+├── weights/
+│   └── best.pt            # Trained YOLOv8 model weights
+├── data/
+│   ├── train/             # Training images + labels
+│   ├── val/               # Validation set
+│   └── test/              # Testing set
+├── Report.pdf             # 8-page final evaluation report
+├── Use\_Case.pdf           # Bonus document — real-world application
+└── README.md              # Project overview and instructions
 
 
 
@@ -63,18 +45,18 @@ Tech-Titans-Code-Space/
 
 Install [Anaconda](https://www.anaconda.com/products/distribution) and run the following commands:
 
-conda create -n EDU python=3.9 -y
-conda activate EDU
-pip install ultralytics opencv-python matplotlib torch torchvision torchaudio
+- conda create -n EDU python=3.9 -y
+- conda activate EDU
+- pip install ultralytics opencv-python matplotlib torch torchvision torchaudio
 
 
 ### 2️⃣ Training the Model
 
 
-python train.py
+- python train.py
 
 
-This will begin YOLOv8 training using the synthetic Falcon dataset.
+- This will begin YOLOv8 training using the synthetic Falcon dataset.
 
 ### 3️⃣ Run Inference & Evaluate
 
